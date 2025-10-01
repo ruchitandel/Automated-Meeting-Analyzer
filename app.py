@@ -23,6 +23,16 @@ import os
 from collections import Counter
 from gensim.corpora import Dictionary
 
+import nltk
+import os
+
+# Add this to make sure NLTK finds the local stopwords data
+if os.path.exists('./nltk_data'):
+    nltk.data.path.append('./nltk_data')
+
+import streamlit as st
+# ... the rest of your app.py code
+
 # ==============================================================================
 # 1. Load Models and Assets
 # ==============================================================================
