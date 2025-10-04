@@ -31,13 +31,23 @@ The **Meeting Transcript Analyzer** simplifies this process by:
 
 📂 Meeting-Transcript-Analyzer
 │
+
 ├── app.py # Main Streamlit application
+
 ├── projectNLP.ipynb # Notebook used to preprocess data and train LDA model
+
 ├── data.txt # Sample meeting transcript for testing
+
 │
+
 ├── 📂 models # Pre-trained models generated from notebook
+
 │ ├── lda_model.joblib
+
 │ ├── dictionary.joblib
+
 │
+
 ├── requirements.txt # List of Python dependencies
+
 └── README.md # Project documentation
