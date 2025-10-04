@@ -57,6 +57,7 @@ The **Meeting Transcript Analyzer** simplifies this process by:
 
 ## ⚙️ Installation & Setup
 
+
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/<your-username>/Meeting-Transcript-Analyzer.git
@@ -83,6 +84,8 @@ Then open your browser and navigate to:
 http://localhost:8501
 
 ---
+
+
 
 ## 🧩 How It Works
 
