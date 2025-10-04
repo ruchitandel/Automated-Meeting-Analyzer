@@ -62,6 +62,9 @@ The **Meeting Transcript Analyzer** simplifies this process by:
 git clone https://github.com/<your-username>/Meeting-Transcript-Analyzer.git
 cd Meeting-Transcript-Analyzer
 
+### 2️⃣ Create a Virtual Environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate
 
 ### 3️⃣ Install Dependencies
 pip install -r requirements.txt
@@ -73,11 +76,13 @@ jupyter notebook projectNLP.ipynb
 
 This will create lda_model.joblib and dictionary.joblib inside the models/ folder.
 
-5️⃣ Launch the Streamlit App
+### 5️⃣ Launch the Streamlit App
 streamlit run app.py
 
 Then open your browser and navigate to:
 http://localhost:8501
+
+---
 
 ## 🧩 How It Works
 
