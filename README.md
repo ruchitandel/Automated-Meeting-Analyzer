@@ -64,6 +64,7 @@ git clone https://github.com/<your-username>/Meeting-Transcript-Analyzer.git
 cd Meeting-Transcript-Analyzer
 
 ### 2️⃣ Create a Virtual Environment (optional but recommended)
+```bash
 python -m venv venv
 source venv/bin/activate     # On Windows: venv\Scripts\activate
 
