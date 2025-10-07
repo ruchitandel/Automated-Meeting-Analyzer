@@ -50,6 +50,10 @@ The **Meeting Transcript Analyzer** simplifies this process by:
 
 ├── requirements.txt # List of Python dependencies
 
+## Authors:
+- Mitali Sharma
+- Ruchi Tandel
+
 └── README.md # Project documentation
 
 
